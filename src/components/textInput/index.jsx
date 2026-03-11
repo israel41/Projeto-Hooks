@@ -1,15 +1,14 @@
-import './text-input.style.css';
+import "./text-input.style.css";
 
-
-export function TextInput({ props}) {
+export function TextInput({ props }) {
   return (
-    
-      <input className="text-input"
-       {...props} 
-       placeholder="Digite o item que deseja adicionar"
-       required
-       />
-    
+    <input
+      className="text-input"
+      {...props}
+      placeholder="Digite o item que deseja adicionar"
+      required
+      name="description"
+    />
   );
 }
 
